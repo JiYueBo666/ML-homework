@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from math import log
-from graphviz import Digraph
 from sklearn.metrics import accuracy_score,f1_score,recall_score,precision_score,auc,roc_curve
 from sklearn.model_selection import train_test_split
 import streamlit as st
