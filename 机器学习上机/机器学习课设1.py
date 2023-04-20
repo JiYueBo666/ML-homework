@@ -554,7 +554,7 @@ with col1:
 
         st.success("测试集准确率: %.3f%%" % (accuracy_bp * 100))
 
-       # K_fold_validation(X_train,Y_train,net)
+        K_fold_validation(X_train,Y_train,net)
 
         precision_bp = precision_score(y_test, pred, average='macro')
         recall_bp = recall_score(y_test, pred, average='macro')
@@ -620,7 +620,7 @@ with col3:
 
 
 
-        #K_fold_validation(X_train,Y_train,Lr)
+        K_fold_validation(X_train,Y_train,Lr)
 
         precision_lr = precision_score(y_test, y_pred, average='macro')
         recall_lr = recall_score(y_test, y_pred, average='macro')
